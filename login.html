@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./styles/login.css">
+    <script defer src="scripts/login.js"></script>
+</head>
+<body>
+    <div class="top">
+        <nav class="navbar">
+            <img class="logo" src="./assests/images/logo.svg" alt="image">
+            <ul class="elements">
+                <button class="list"><img src="" alt="image"></button>
+                <button class="list" id="Home"><a href="./index.html">Home</a></button>
+                <button class="list" id="About"><a href="./about.html">About</a></button>
+                <button class="list" id="Login"><a href="./login.html">Login</a></button>
+                <button class="list" id="SignUp"><a href="./signup.html">Sign Up</a></button>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <div class="middle">
+            <div class="container">
+                
+                <h1>Log In</h1>
+                <form id="login-form">
+                   
+                    <div class="formgroup">
+                        <span class="name">Username</span>
+                        <input type="text" name="username" placeholder="Enter username">
+                    </div>
+                    
+                    <div class="formgroup">
+                        <span class="name">Password</span>
+                        <input type="text" name="password" placeholder="Enter password" type="hidden">
+                    </div>
+                   
+                    <button id="submit-button" class="btn">Submit</button>
+                    <button class="btn">Forgot Password</button>
+                    <a class="btn" id="login" href="./signup.html">Don't have an account?Create one</a>
+                    <p id="err-msg">Invalid username or password</p>
+                </form>
+        </div>
+    </div>
+    <div class="bottom">
+        
+        <div class="container">
+            <div class="row">
+              <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Job search</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+            
+               
+              
+              <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+           </div>
+    
+</div>
+</body>
+</html>
